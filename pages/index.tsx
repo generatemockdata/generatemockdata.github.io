@@ -4,7 +4,7 @@ import Layout from 'components/Layout';
 export default function Page() {
   return (
     <Layout>
-        Hello
+        Random number: {Math.random()}
     </Layout>
   )
 }
