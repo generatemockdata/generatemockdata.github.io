@@ -1,5 +1,10 @@
+import Layout from 'components/Layout';
+
+
 export default function Page() {
   return (
-    <h1> Hello </h1>
+    <Layout>
+        Hello
+    </Layout>
   )
 }
